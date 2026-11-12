@@ -73,7 +73,7 @@ fun ShadowStartupAnimation(modifier: Modifier = Modifier) {
     var fading by remember { mutableStateOf(false) }
     val alpha by animateFloatAsState(
         targetValue = if (fading) 0f else 1f,
-        animationSpec = tween(FadeDurationMillis),
+        animationSpec = tween(FadeDurationMillis.toInt()),
         label = "startupFade",
     )
 
