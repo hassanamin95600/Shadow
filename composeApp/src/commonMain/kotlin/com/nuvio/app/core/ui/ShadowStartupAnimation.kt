@@ -17,8 +17,8 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.input.pointer.PointerEventPass
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.ContentScale
@@ -92,7 +92,7 @@ fun ShadowStartupAnimation(modifier: Modifier = Modifier) {
     Box(
         modifier = modifier
             .fillMaxSize()
-            .graphicsLayer { this.alpha = alpha }
+            .alpha(alpha)
             // The artwork carries its own black field, so the overlay matches it instead of the theme
             .background(Color.Black)
             // Swallow touches so the app underneath can't be operated mid-animation.
