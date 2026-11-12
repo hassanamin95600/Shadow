@@ -68,7 +68,7 @@
     <string name="collections_editor_tmdb_list_helper">எடுத்துக்காட்டு: https://www.themoviedb.org/list/8504994 அல்லது 8504994.</string>
     <string name="collections_editor_tmdb_person_helper">எடுத்துக்காட்டு: https://www.themoviedb.org/person/31-tom-hanks அல்லது 31.</string>
     <string name="collections_editor_tmdb_display_title">காட்டப்படும் தலைப்பு</string>
-    <string name="collections_editor_tmdb_title_helper">வரிசை/தாவலின் பெயராகக் காட்டப்படும். காலியாக இருந்தால், ஆதாரத்தின் அடிப்படையில் Nuvio பெயரை உருவாக்கும்.</string>
+    <string name="collections_editor_tmdb_title_helper">வரிசை/தாவலின் பெயராகக் காட்டப்படும். காலியாக இருந்தால், ஆதாரத்தின் அடிப்படையில் Shadow பெயரை உருவாக்கும்.</string>
     <string name="collections_editor_tmdb_title_placeholder">Marvel Movies, Netflix Originals, Pixar</string>
     <string name="collections_editor_tmdb_person_title_placeholder">Tom Hanks Movies, Favorite Actors</string>
     <string name="collections_editor_tmdb_director_title_placeholder">Christopher Nolan Movies, Favorite Directors</string>

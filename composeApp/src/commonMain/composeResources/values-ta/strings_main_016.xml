@@ -67,7 +67,7 @@
     <string name="details_series_missing_numbers">இந்தத் தொடருக்கான வீடியோக்களை துணைநிரல் வழங்கியது; ஆனால் எதிலும் சீசன் அல்லது எபிசோடு எண்கள் இல்லை.</string>
     <string name="details_series_no_metadata">இந்தத் தொடருக்கான எபிசோடு மெட்டாடேட்டாவை துணைநிரல் வழங்கவில்லை.</string>
     <string name="details_series_unpublished">இந்தத் துணைநிரல் இன்னும் எபிசோடுகளை வெளியிடவில்லை.</string>
-    <string name="details_servers_unreachable">உங்கள் சாதனம் இணையத்தில் உள்ளது; ஆனால் தேவையான சேவையகங்களை Nuvio அணுக முடியவில்லை.</string>
+    <string name="details_servers_unreachable">உங்கள் சாதனம் இணையத்தில் உள்ளது; ஆனால் தேவையான சேவையகங்களை Shadow அணுக முடியவில்லை.</string>
     <string name="details_show_less">குறைவாகக் காட்டு</string>
     <string name="details_show_more">மேலும் காட்டு ▾</string>
     <string name="details_writer">எழுத்தாளர்</string>

@@ -99,5 +99,5 @@
     <string name="settings_meta_tab_layout_description">தொலைக்காட்சி பயன்பாட்டைப் போல பிரிவுகளைத் தாவல்களாகக் குழுவாக்கவும். ஒவ்வொரு தாவல் குழுவிலும் அதிகபட்சம் 3 பிரிவுகளை ஒதுக்கவும்.</string>
     <string name="settings_meta_trailers">டிரெய்லர்கள்</string>
     <string name="settings_meta_trailers_description">டிரெய்லர் வரிசை மற்றும் பிளேபேக் குறுக்குவழிகள்.</string>
-    <string name="settings_notifications_disabled_in_app">Nuvio-வில் தற்போது அறிவிப்புகள் முடக்கப்பட்டுள்ளன.</string>
+    <string name="settings_notifications_disabled_in_app">Shadow-வில் தற்போது அறிவிப்புகள் முடக்கப்பட்டுள்ளன.</string>
 </resources>

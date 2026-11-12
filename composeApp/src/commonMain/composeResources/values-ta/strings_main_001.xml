@@ -6,7 +6,7 @@
     <string name="theme_arctic_blue">ஆர்க்டிக் நீலம்</string>
     <string name="theme_graphite">கிராஃபைட்</string>
     <string name="profile_choose_background">சுயவிவரப் பின்னணியைத் தேர்ந்தெடுக்கவும்</string>
-    <string name="profile_background_member_note">Nuvio இணையப் பலகத்தில் தனிப்பயன் பின்னணி URL-களை அமைக்கலாம்.</string>
+    <string name="profile_background_member_note">Shadow இணையப் பலகத்தில் தனிப்பயன் பின்னணி URL-களை அமைக்கலாம்.</string>
     <string name="profile_background_normal">இயல்பானது</string>
     <string name="profile_background_custom">தனிப்பயன்</string>
     <string name="about_licenses_attributions_subtitle">தரவு ஆதாரங்கள், நன்றியுரைகள் மற்றும் தள உரிமங்கள்</string>
@@ -48,14 +48,14 @@
     <string name="addons_configure">துணைநிரலை அமைக்கவும்</string>
     <string name="addons_delete">துணைநிரலை நீக்கு</string>
     <string name="addons_delete_confirm_title">துணைநிரலை நீக்கவா?</string>
-    <string name="addons_appstore_add_description">நீங்கள் பயன்படுத்தும் துணைநிரல்களுடன் உங்கள் நூலகத்தை Nuvio-வில் கொண்டு வாருங்கள்.</string>
+    <string name="addons_appstore_add_description">நீங்கள் பயன்படுத்தும் துணைநிரல்களுடன் உங்கள் நூலகத்தை Shadow-வில் கொண்டு வாருங்கள்.</string>
     <string name="addons_appstore_empty_subtitle">உங்கள் நூலகத்தை உருவாக்கத் தொடங்க ஒரு துணைநிரலைச் சேர்க்கவும்.</string>
-    <string name="addons_appstore_empty_title">Nuvio-வை உங்களுக்கேற்றதாக மாற்றுங்கள்.</string>
+    <string name="addons_appstore_empty_title">Shadow-வை உங்களுக்கேற்றதாக மாற்றுங்கள்.</string>
     <string name="addons_appstore_input_placeholder">துணைநிரல் URL</string>
     <string name="addons_appstore_install_button">துணைநிரலைச் சேர்</string>
     <string name="store_empty_unavailable_title">இங்கே இன்னும் எதுவும் இல்லை</string>
     <string name="store_empty_unavailable_message">உங்கள் தற்போதைய துணைநிரல்களில் இங்கே காட்ட எதுவும் இல்லை.</string>
-    <string name="addons_empty_subtitle">Nuvio-வில் பட்டியல்கள், மெட்டாடேட்டா, ஸ்ட்ரீம்கள் அல்லது வசன வரிகளை ஏற்ற, manifest URL-ஐச் சேர்க்கவும்.</string>
+    <string name="addons_empty_subtitle">Shadow-வில் பட்டியல்கள், மெட்டாடேட்டா, ஸ்ட்ரீம்கள் அல்லது வசன வரிகளை ஏற்ற, manifest URL-ஐச் சேர்க்கவும்.</string>
     <string name="addons_empty_title">இதுவரை துணைநிரல்கள் நிறுவப்படவில்லை.</string>
     <string name="addons_error_enter_url">துணைநிரல் URL-ஐ உள்ளிடவும்.</string>
     <string name="addons_input_placeholder">துணைநிரல் URL</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="settings_licenses_attributions_introdb_title">IntroDB</string>
-    <string name="settings_licenses_attributions_introdb_body">Skip கட்டுப்பாடுகளில் பயன்படுத்தப்படும் intro, recap, credits மற்றும் preview நேரக் குறியீடுகளுக்கு Nuvio சமூகத்தினர் வழங்கும் IntroDB API-ஐப் பயன்படுத்துகிறது. Nuvio, IntroDB உடன் இணைக்கப்பட்டதோ அதன் ஆதரவைப் பெற்றதோ அல்ல.</string>
+    <string name="settings_licenses_attributions_introdb_body">Skip கட்டுப்பாடுகளில் பயன்படுத்தப்படும் intro, recap, credits மற்றும் preview நேரக் குறியீடுகளுக்கு Shadow சமூகத்தினர் வழங்கும் IntroDB API-ஐப் பயன்படுத்துகிறது. Shadow, IntroDB உடன் இணைக்கப்பட்டதோ அதன் ஆதரவைப் பெற்றதோ அல்ல.</string>
     <string name="settings_licenses_attributions_mpvkit_title">MPVKit</string>
     <string name="settings_licenses_attributions_mpvkit_body">iOS பதிப்புகளில் பிளேபேக்கிற்குப் பயன்படுத்தப்படுகிறது.</string>
     <string name="settings_licenses_attributions_mpvkit_license">MPVKit மூலக் குறியீடு மட்டும் LGPL v3.0 உரிமத்தின் கீழ் உள்ளது. libmpv மற்றும் FFmpeg நூலகங்கள் உட்பட MPVKit தொகுப்புகளும் LGPL v3.0 உரிமத்தின் கீழ் உள்ளன.</string>
@@ -13,7 +13,7 @@
     <string name="compose_tracking_list_picker_loading">பட்டியல்களை ஏற்றுகிறது…</string>
     <string name="compose_tracking_list_picker_subtitle">இந்தத் தலைப்பை எங்கு சேமிக்க வேண்டும் என்பதைத் தேர்ந்தெடுக்கவும்</string>
     <string name="action_donate">நன்கொடை</string>
-    <string name="action_support_nuvio">Nuvio-வை ஆதரிக்கவும்</string>
+    <string name="action_support_nuvio">Shadow-வை ஆதரிக்கவும்</string>
     <string name="cw_action_go_to_details">விவரங்களுக்குச் செல்</string>
     <string name="cw_action_remove">அகற்று</string>
     <string name="cw_action_start_from_beginning">தொடக்கத்திலிருந்து தொடங்கு</string>
@@ -71,7 +71,7 @@
     <string name="settings_appearance_amoled_description">OLED திரைகளுக்கு முழுக் கருப்புப் பின்னணியைப் பயன்படுத்தவும்.</string>
     <string name="settings_appearance_app_icon">பயன்பாட்டு ஐகான்</string>
     <string name="settings_appearance_app_icon_arctic_blue">ஆர்க்டிக் நீலம்</string>
-    <string name="settings_appearance_app_icon_android_confirmation_message">%1$s-க்கு மாற்றினால் Nuvio மூடப்படும். தொடர சரி என்பதைத் தட்டவும்.</string>
+    <string name="settings_appearance_app_icon_android_confirmation_message">%1$s-க்கு மாற்றினால் Shadow மூடப்படும். தொடர சரி என்பதைத் தட்டவும்.</string>
     <string name="settings_appearance_app_icon_android_confirmation_title">பயன்பாட்டு ஐகானை மாற்றவா?</string>
     <string name="settings_appearance_app_icon_change_failed">ஐகானை மாற்ற முடியவில்லை. மீண்டும் முயற்சிக்கவும்.</string>
     <string name="settings_appearance_app_icon_copper">செம்பு</string>

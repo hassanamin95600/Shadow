@@ -45,7 +45,7 @@
     <string name="settings_content_discovery_recent_searches">சமீபத்திய தேடல்கள்</string>
     <string name="settings_content_discovery_recent_searches_description">சமீபத்திய தேடல்களைச் சேமித்து, தேடல் பட்டியைத் தேர்ந்தெடுக்கும்போது காட்டவும்.</string>
     <string name="settings_content_discovery_addons_description">உள்ளடக்க ஆதாரங்களை நிறுவவும், அகற்றவும், புதுப்பிக்கவும் மற்றும் வரிசைப்படுத்தவும்.</string>
-    <string name="settings_content_discovery_addons_description_appstore">Nuvio-வில் நீங்கள் பயன்படுத்தும் துணைநிரல்களைச் சேர்த்து நிர்வகிக்கவும்.</string>
+    <string name="settings_content_discovery_addons_description_appstore">Shadow-வில் நீங்கள் பயன்படுத்தும் துணைநிரல்களைச் சேர்த்து நிர்வகிக்கவும்.</string>
     <string name="settings_content_discovery_plugins_description">JavaScript scraper repository-களை நிறுவி வழங்குநர்களை உள்நாட்டில் சோதிக்கவும்.</string>
     <string name="settings_content_discovery_homescreen_description">முகப்பு அமைப்பு, உள்ளடக்கக் காட்சி மற்றும் போஸ்டர் நடத்தை ஆகியவற்றைச் சரிசெய்யவும்</string>
     <string name="settings_content_discovery_meta_screen_description">விவர மற்றும் எபிசோடு திரைகளுக்கான அமைப்புகள்.</string>
@@ -76,7 +76,7 @@
     <string name="settings_debrid_disconnect">துண்டிக்கவும்</string>
     <string name="settings_debrid_device_auth_connected">%1$s இந்தச் சாதனத்தில் இணைக்கப்பட்டுள்ளது.</string>
     <string name="settings_debrid_device_auth_starting">பாதுகாப்பான உள்நுழைவைத் தொடங்குகிறது...</string>
-    <string name="settings_debrid_device_auth_instructions">இணைப்பைத் திறந்து, Nuvio-வை அனுமதிக்க இந்தக் குறியீட்டை உள்ளிடவும்.</string>
+    <string name="settings_debrid_device_auth_instructions">இணைப்பைத் திறந்து, Shadow-வை அனுமதிக்க இந்தக் குறியீட்டை உள்ளிடவும்.</string>
     <string name="settings_debrid_device_auth_code_copied">குறியீடு நகலெடுக்கப்பட்டது.</string>
     <string name="settings_debrid_device_auth_open">இணைப்பைத் திற</string>
     <string name="settings_debrid_device_auth_waiting">அனுமதிக்காகக் காத்திருக்கிறது...</string>
