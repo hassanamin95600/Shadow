@@ -1,29 +1,22 @@
 <div align="center">
 
-  <img src="https://nuvio.tv/assets/nuvio-app-logo-wordmark.webp" alt="Nuvio" width="320" />
+  <h1>SHADOW</h1>
 
   <p>
-    A free, open-source media app for your phone, your desktop, and the TV you already own.
+    A personal, community-maintained white-label fork of Nuvio Mobile.
     <br />
-    Bring your own sources. Nuvio turns them into a library with artwork, ratings, subtitles, and your place saved on every screen.
+    Shadow preserves the upstream app's media-library experience and integrations while applying its own app identity.
   </p>
 
-  [Website](https://nuvio.tv) · [GitHub releases](https://github.com/NuvioMedia/NuvioMobile/releases/latest) · [Support Nuvio](https://nuvio.tv/support)
+  <p><strong>Fork attribution:</strong> Shadow is based on Nuvio Mobile. The upstream project, its contributors, third-party services, trademarks, and license notices remain acknowledged where applicable.</p>
 
 </div>
 
-## Get Nuvio Mobile
+## Project
 
-- [Android on Google Play](https://play.google.com/store/apps/details?id=com.nuvio.app)
-- [Android APK](https://github.com/NuvioMedia/NuvioMobile/releases/latest)
-- iOS via AltStore or SideStore: add [this source URL](https://raw.githubusercontent.com/NuvioMedia/NuvioMobile/cmp-rewrite/store.json) in the app's Sources section, then install Nuvio.
+This repository contains the Shadow-branded Android and iOS application. The app is built with Kotlin Multiplatform and Compose Multiplatform.
 
 ## Build from source
-
-```bash
-git clone https://github.com/NuvioMedia/NuvioMobile.git
-cd NuvioMobile
-```
 
 ### Android
 
@@ -50,6 +43,8 @@ env NUVIO_IOS_DISTRIBUTION=full xcodebuild \
 
 The shared app is built with Kotlin Multiplatform and Compose Multiplatform.
 
-## License
+## Upstream and license
+
+Shadow is a fork of [Nuvio Mobile](https://github.com/NuvioMedia/NuvioMobile). Upstream copyright notices and third-party attributions are retained in the source.
 
 [GNU General Public License v3.0](./LICENSE)
