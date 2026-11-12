@@ -458,7 +458,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.zenith4268.storm8073.shadow.DownloadsWidgetExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = app.zenith4268.storm8073.DownloadsWidgetExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -482,7 +482,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.zenith4268.storm8073.shadow.DownloadsWidgetExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = app.zenith4268.storm8073.DownloadsWidgetExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -553,7 +553,7 @@
 					"-framework",
 					SystemConfiguration,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.zenith4268.storm8073.shadow;
+				PRODUCT_BUNDLE_IDENTIFIER = app.zenith4268.storm8073;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -595,7 +595,7 @@
 					"-framework",
 					SystemConfiguration,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.zenith4268.storm8073.shadow;
+				PRODUCT_BUNDLE_IDENTIFIER = app.zenith4268.storm8073;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
