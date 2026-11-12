@@ -71,7 +71,13 @@ jobs:
           fi
 
       - name: Prepare iOS dependencies
-        run: ./scripts/prepare-ios-dependencies.sh
+        run: |
+          ./scripts/prepare-ios-dependencies.sh
+          git submodule status MPVKit || true
+          if [[ ! -f MPVKit/Package.swift ]]; then
+            echo "::error title=MPVKit submodule missing::git submodule update did not provide MPVKit/Package.swift (see git exit 128)."
+            exit 1
+          fi
 
       - name: Build unsigned full ${{ env.IOS_CONFIGURATION }} IPA
         run: |
@@ -86,7 +92,22 @@ jobs:
           ) &
           monitor_pid=$!
           trap 'kill "${monitor_pid}" 2>/dev/null || true' EXIT
-          ./scripts/build-ios-ipa.sh
+          mkdir -p build
+          ./scripts/build-ios-ipa.sh 2>&1 | tee build/ios-build.log
+
+      - name: Report iOS build failure
+        if: failure()
+        run: |
+          log="build/ios-build.log"
+          [[ -f "${log}" ]] || exit 0
+          {
+            echo "## iOS build failure"
+            echo '```'
+            grep -E "error:|fatal:|The following build commands failed|did not produce|Undefined symbol" "${log}" | head -n 40 || true
+            echo '```'
+          } >> "${GITHUB_STEP_SUMMARY}"
+          summary="$(grep -E "error:|fatal:|The following build commands failed|did not produce|Undefined symbol" "${log}" | head -n 15 | tr '\n' ' ' | cut -c1-5000)"
+          echo "::error title=iOS build failed::${summary:-no error lines matched, see job log}"
 
       - name: Summarize IPA
         run: |
