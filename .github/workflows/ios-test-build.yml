@@ -31,9 +31,6 @@ jobs:
       DEVELOPER_DIR: /Applications/Xcode_27.1.app/Contents/Developer
       GRADLE_OPTS: -Dfile.encoding=UTF-8
       IOS_CONFIGURATION: ${{ inputs.configuration || 'Release' }}
-      KOTLIN_DAEMON_JVMARGS: -Xmx2048M
-      NUVIO_GRADLE_JVMARGS: -Xmx4608M -Dfile.encoding=UTF-8 -XX:MaxMetaspaceSize=768M
-      NUVIO_KOTLIN_NATIVE_JVMARGS: -Xmx4608M
       RELEASE_PROPERTIES_BASE64: ${{ secrets.NUVIO_LOCAL_PROPERTIES_BASE64 }}
 
     steps:
@@ -73,6 +70,7 @@ jobs:
 
       - name: Prepare iOS dependencies
         run: |
+          set -o pipefail
           mkdir -p build
           ./scripts/prepare-ios-dependencies.sh 2>&1 | tee build/prepare.log
           git submodule status MPVKit || true
@@ -83,6 +81,7 @@ jobs:
 
       - name: Build unsigned full ${{ env.IOS_CONFIGURATION }} IPA
         run: |
+          set -o pipefail
           (
             while sleep 60; do
               echo "::group::Build resources $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
