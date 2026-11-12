@@ -72,7 +72,8 @@ jobs:
 
       - name: Prepare iOS dependencies
         run: |
-          ./scripts/prepare-ios-dependencies.sh
+          mkdir -p build
+          ./scripts/prepare-ios-dependencies.sh 2>&1 | tee build/prepare.log
           git submodule status MPVKit || true
           if [[ ! -f MPVKit/Package.swift ]]; then
             echo "::error title=MPVKit submodule missing::git submodule update did not provide MPVKit/Package.swift (see git exit 128)."
@@ -98,16 +99,22 @@ jobs:
       - name: Report iOS build failure
         if: failure()
         run: |
-          log="build/ios-build.log"
-          [[ -f "${log}" ]] || exit 0
           {
-            echo "## iOS build failure"
+            echo "### iOS build diagnostics"
+            echo
+            echo "MPVKit: $(git submodule status MPVKit 2>&1 || true)"
+            echo
+            echo "**prepare.log (tail)**"
             echo '```'
-            grep -E "error:|fatal:|The following build commands failed|did not produce|Undefined symbol" "${log}" | head -n 40 || true
+            tail -n 60 build/prepare.log 2>/dev/null || echo "(prepare.log missing)"
+            echo '```'
+            echo "**ios-build.log (errors)**"
+            echo '```'
+            grep -E "error:|fatal:|The following build commands failed|did not produce|Undefined symbol|error " build/ios-build.log 2>/dev/null | tail -n 50 || echo "(ios-build.log missing)"
             echo '```'
           } >> "${GITHUB_STEP_SUMMARY}"
-          summary="$(grep -E "error:|fatal:|The following build commands failed|did not produce|Undefined symbol" "${log}" | head -n 15 | tr '\n' ' ' | cut -c1-5000)"
-          echo "::error title=iOS build failed::${summary:-no error lines matched, see job log}"
+          summary="$(grep -E "error:|fatal:|The following build commands failed|did not produce|Undefined symbol" build/ios-build.log build/prepare.log 2>/dev/null | head -n 12 | tr '\n' ' ' | cut -c1-5000)"
+          echo "::error title=iOS build failed::${summary:-see the run summary for diagnostics}"
 
       - name: Summarize IPA
         run: |

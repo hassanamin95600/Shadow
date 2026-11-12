@@ -9,7 +9,13 @@ engine_root="${NUVIO_ENGINE_ROOT:-${repository_root}/../nuvio-engine}"
 engine_framework="${engine_root}/platform/apple/NuvioEngine.xcframework"
 
 if [[ ! -f "${repository_root}/MPVKit/Package.swift" ]]; then
-    git -C "${repository_root}" submodule update --init --depth 1 MPVKit
+    # A shallow fetch of a pinned submodule commit that is not the branch tip
+    # fails with "reference is not a tree", so only fall back to --depth 1.
+    echo "Fetching the MPVKit submodule"
+    if ! git -C "${repository_root}" submodule update --init MPVKit; then
+        echo "Full submodule clone failed, retrying with a shallow clone" >&2
+        git -C "${repository_root}" submodule update --init --depth 1 MPVKit
+    fi
 fi
 
 if [[ -f "${engine_framework}/Info.plist" ]]; then
