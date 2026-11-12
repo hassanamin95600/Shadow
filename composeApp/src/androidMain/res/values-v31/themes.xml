@@ -11,22 +11,22 @@
     </style>
 
     <style name="Theme.Nuvio.Splash.ArcticBlue" parent="@style/Theme.Nuvio.Splash">
-        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_shadow_foreground_arctic_blue</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_shadow_foreground</item>
     </style>
 
     <style name="Theme.Nuvio.Splash.Emerald" parent="@style/Theme.Nuvio.Splash">
-        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_shadow_foreground_emerald</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_shadow_foreground</item>
     </style>
 
     <style name="Theme.Nuvio.Splash.RoseGold" parent="@style/Theme.Nuvio.Splash">
-        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_shadow_foreground_rose_gold</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_shadow_foreground</item>
     </style>
 
     <style name="Theme.Nuvio.Splash.Copper" parent="@style/Theme.Nuvio.Splash">
-        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_shadow_foreground_copper</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_shadow_foreground</item>
     </style>
 
     <style name="Theme.Nuvio.Splash.Graphite" parent="@style/Theme.Nuvio.Splash">
-        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_shadow_foreground_graphite</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_shadow_foreground</item>
     </style>
 </resources>
