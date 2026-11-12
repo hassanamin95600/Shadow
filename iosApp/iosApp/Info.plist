@@ -65,7 +65,12 @@
 		<string>open-vidhub</string>
 	</array>
 	<key>UILaunchScreen</key>
-	<dict/>
+	<dict>
+		<key>UIColorName</key>
+		<string>LaunchBackground</string>
+		<key>UIImageName</key>
+		<string>LaunchLogo</string>
+	</dict>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>
